@@ -31,9 +31,17 @@ cd researcher-agent
 npm install
 ```
 ### 3. Create `.env` file
+
+Create a file named `.env` in the project root and add:
+
+```env
 AGENTROUTER_API_KEY=your_api_key_here
 AGENTROUTER_BASE_URL=https://agentrouter.org/v1
 MODEL=openai/gpt-oss-120b
+```
+
+> Get your free API key at [agentrouter.org](https://agentrouter.org)
+
 ### 4. Run the agent
 ```bash
 node agent.js
