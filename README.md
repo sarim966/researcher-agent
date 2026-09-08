@@ -41,22 +41,26 @@ node agent.js
 ---
 ## Example Output
 
-**`dips` command:**
-MOMENTUM DIPS : low rsi + rising volume
-symbol | rsi | vol trend | price | 24h change
-DCRUSDT | 35.16 | +45% | 15.65 | -2.188%
-BTCUSDT | 36.8 | +186.3% | 78522.01 | -1.206%
-HBARUSDT | 37.69 | +34.9% | 0.08009 | -0.645%
+**`dips` command — Momentum Dip Scanner:**
 
-**`ta SOL` command:**
-TA REPORT — SOLUSDT
-price: $104.93
-RSI (1h): 43.2 → approaching oversold
-RSI (4h): 51.8
-MACD (1h): -0.42 → bearish momentum
-volume: rising (+12% vs prev 5 candles)
-support: $101.20
-resistance: $108.50
+| Symbol | RSI | Vol Trend | Price | 24h Change |
+|--------|-----|-----------|-------|------------|
+| DCRUSDT | 35.16 | +45% | $15.65 | -2.188% |
+| BTCUSDT | 36.8 | +186.3% | $78522.01 | -1.206% |
+| HBARUSDT | 37.69 | +34.9% | $0.08009 | -0.645% |
+
+**`ta SOL` command — Full TA Report:**
+
+| Indicator | Value | Signal |
+|-----------|-------|--------|
+| Price | $104.93 | — |
+| 24h Change | -1.80% | — |
+| RSI (1h) | 43.2 | approaching oversold |
+| RSI (4h) | 51.8 | neutral |
+| MACD (1h) | -0.42 | bearish momentum |
+| Volume | +12% | rising |
+| Support | $101.20 | — |
+| Resistance | $108.50 | — |
 ---
 ## Built With
 - [Binance Agent OS](https://www.binance.com/en/agent-os) — MCP infrastructure
