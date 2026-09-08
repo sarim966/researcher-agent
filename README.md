@@ -32,7 +32,7 @@ npm install
 ```
 ### 3. Create `.env` file
 
-### 3. Create your config file
+First Create your config file
 
 Run this in your terminal:
 
