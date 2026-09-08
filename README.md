@@ -32,15 +32,21 @@ npm install
 ```
 ### 3. Create `.env` file
 
-Create a file named `.env` in the project root and add:
+### 3. Create your config file
 
-```env
+Run this in your terminal:
+
+```powershell
+notepad .env
+```
+
+A blank notepad will open. Paste this inside, replace `your_api_key_here` with your key, then save and close:
+
+```
 AGENTROUTER_API_KEY=your_api_key_here
 AGENTROUTER_BASE_URL=https://agentrouter.org/v1
 MODEL=openai/gpt-oss-120b
 ```
-
-> Get your free API key at [agentrouter.org](https://agentrouter.org)
 
 ### 4. Run the agent
 ```bash
