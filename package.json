@@ -1,0 +1,29 @@
+{
+  "name": "researcher-agent",
+  "version": "1.0.0",
+  "description": "The 1% Researcher Agent — AI-powered crypto research using Binance Agent OS MCP",
+  "main": "agent.js",
+  "type": "module",
+  "scripts": {
+    "start": "node agent.js",
+    "screen": "node agent.js screen",
+    "research": "node agent.js research",
+    "post": "node agent.js post",
+    "balance": "node agent.js balance"
+  },
+  "keywords": [
+    "binance",
+    "crypto",
+    "ai-agent",
+    "mcp",
+    "web3-research"
+  ],
+  "author": "Sarim Khan @arkilus78",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.0.0",
+    "openai": "^7.10.0"
+  }
+}
